@@ -1,0 +1,22 @@
+export const SocialData = [
+    {
+        platform:'LinkedIn',
+        link:"https://np.linkedin.com/in/aashutosh-pudasaini-bb99741b5",
+        icon:require('../../assets/icons/linkedin.png').default
+    },
+    {
+        platform:"Telegram",
+        link:"https://t.me/ashu70sh",
+        icon:require('../../assets/icons/telegram.png').default
+    },
+    {
+        platform:"Github",
+        link:"https://github.com/ashshelby",
+        icon:require('../../assets/icons/github.png').default
+    },
+    {
+        platform:'Email',
+        link:'mailto:pudasainiashutosh@gmail.com',
+        icon:require('../../assets/icons/mail.png').default
+    }
+]
