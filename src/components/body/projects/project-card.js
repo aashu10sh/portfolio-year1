@@ -7,7 +7,7 @@ function ProjectCard({ project }) {
             <div className='project-info'>
                 <label className="project-title">{project.title}</label>
                 <div className='project-links'>
-                    {project.demo&& (<a href='#'>
+                    {project.demo&& (<a href='#projects'>
                         <div className='project-link'>
                             <div className='link-button'>
                                 <i>
@@ -36,7 +36,7 @@ function ProjectCard({ project }) {
 
                 </div>
             </div>
-            <img src={project.image} className="project-photo"></img>
+            <img src={project.image} alt='nice img' className="project-photo"></img>
         </div>
     )
 }
