@@ -13,6 +13,10 @@ export const SkillsData = [
             {
                 name:"Svelte",
                 icon:<i class="devicon-svelte-plain colored"></i>
+            },
+            {
+                name:"Bootstrap",
+                icon:<i class="devicon-bootstrap-plain colored"></i>
             }
 
         ]
@@ -39,6 +43,31 @@ export const SkillsData = [
             {
                 name:"Rails",
                 icon:<i class="devicon-rails-plain-wordmark colored"></i>
+            },
+            {
+                name:"MySQL",
+                icon:<i class="devicon-mysql-plain colored"></i>
+            }
+        ]
+    },
+    {
+        type:"Ethical Hacking",
+        list:[
+            {
+                name:"Red Team",
+                icon:<i class="devicon-python-plain colored"></i>
+            },
+            {
+                name:"Blue Team",
+                icon:<i class="devicon-bash-plain colored"></i> 
+            },
+            {
+                name:"Exploit Development",
+                icon:<i class="devicon-rust-plain colored"></i>
+            },
+            {
+                name:"Linux",
+                icon:<i class="devicon-linux-plain colored"></i>
             }
         ]
     }

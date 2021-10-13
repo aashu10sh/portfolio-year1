@@ -1,7 +1,7 @@
 .skill-card
 {
     width: max-content;
-    padding:8px 16px;
+    padding:18px 16px;
     height:120px;
     display:flex;
     flex-direction:column;
